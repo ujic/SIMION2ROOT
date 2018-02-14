@@ -1,8 +1,6 @@
 # SIMION2ROOT
 SIMION2ROOT fill the ROOT TTree with the output of the SIMION simulation.
 
-SIMION2ROOT fill the ROOT TTree with the output of the SIMION simulation.
-
 The use of SIMION2ROOT: 
 SIMION2ROOT <file path/file> <delimiter in simion file ex: ,>
 if the delimiter is not present it will be considered as TAB
