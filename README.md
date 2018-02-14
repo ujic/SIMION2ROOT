@@ -7,8 +7,9 @@ if the delimiter is not present it will be considered as TAB
 delimiters in SIMION are , or ; or TAB
 
 The SIMION2ROOT first search the ------ Begin Next Fly'm ------ by searching "------"
-8 lines after there is the list of the SIMION parameters given in the output file (any number of SIMION parameters)
-The code will create a branch for each parameter with the corresponding name and then put the date into the tree
+
+8 lines after this line, there is line with the list of SIMION parameters writen in the output file. 
+The code will create a branch for each parameter (any number of SIMION parameters) with the corresponding name and then put the data into the tree
 
 Prerequisite:
 ROOT data analysis framework (https://root.cern.ch/)
