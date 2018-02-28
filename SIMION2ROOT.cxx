@@ -48,6 +48,7 @@ void readSIMION(istream &SIMIONFile, vector<string> &variables, vector< vector<f
 			}
 			SIMIONElementStr.erase(std::remove(SIMIONElementStr.begin(), SIMIONElementStr.end(), '\"'), SIMIONElementStr.end());
 			SIMIONElementStr.erase(std::remove(SIMIONElementStr.begin(), SIMIONElementStr.end(), ' '), SIMIONElementStr.end());
+			SIMIONElementStr.erase(std::remove(SIMIONElementStr.begin(), SIMIONElementStr.end(), '\r'), SIMIONElementStr.end());
 			nvar++;
 			cout << SIMIONElementStr <<endl;
 			variables.push_back(SIMIONElementStr);
